@@ -1,0 +1,14 @@
+GIT Basis Commands 
+
+Wednesday, September 1, 2021 ,10:39 AM
+
+
+	git status
+
+	git add .
+
+	git commit -m "Second commit"
+
+	git push -u origin master
+
+
