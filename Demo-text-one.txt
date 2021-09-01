@@ -1,0 +1,71 @@
+Microsoft Windows [Version 10.0.18363.1734]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Pallabi_Biswas>cd  C:\Users\Pallabi_Biswas\Desktop\FSD\Day1
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git init
+Initialized empty Git repository in C:/Users/Pallabi_Biswas/Desktop/FSD/Day1/.git/
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Gitinit.jpg
+        Sample-text-one.txt
+        Sample-text-two.txt
+        VCS.jpg
+        gitvsgithub.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git add .
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Gitinit.jpg
+        new file:   Sample-text-one.txt
+        new file:   Sample-text-two.txt
+        new file:   VCS.jpg
+        new file:   gitvsgithub.jpg
+
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git commit -m "First commit"
+[master (root-commit) 04dcef3] First commit
+ 5 files changed, 2 insertions(+)
+ create mode 100644 Gitinit.jpg
+ create mode 100644 Sample-text-one.txt
+ create mode 100644 Sample-text-two.txt
+ create mode 100644 VCS.jpg
+ create mode 100644 gitvsgithub.jpg
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git config --global user.email pallabi.biswas@dell.com
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git config --global user.name Pallabi
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git config --global user.name Pallabi007
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git remote add origin https://github.com/Pallabi007/FSD-Training.git
+
+     Create New Repo in GITHub site 
+                  Setting -> Developer setting create token enter it to the window
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.11 MiB | 409.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Pallabi007/FSD-Training.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Pallabi_Biswas\Desktop\FSD\Day1>
